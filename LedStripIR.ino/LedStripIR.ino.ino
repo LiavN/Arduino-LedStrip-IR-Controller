@@ -14,7 +14,7 @@ void setup() {
   
   pinMode(LED_PIN, OUTPUT);
   Serial.begin(9600);
-  digitalWrite(LED_PIN, LOW);// turn off the light when start
+  digitalWrite(LED_PIN, HIGH);// turn off the light when start
 }
 
 void loop() {
